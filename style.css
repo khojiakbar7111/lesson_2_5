@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+   width: 1240px;
+   margin: 0 auto;
+   background-color: aliceblue;
+    
+}
+.continer{
+    display: flex;
+    justify-content: space-between;
+      align-items: center;
+
+
+}
+.continer__rasm{
+    display: flex;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.continer_link{
+    color:  #A1B5BB;
+    
+    padding-left: 50px;
+
+}
+.btn{
+    padding: 20px 50px;
+    background: #145E76;
+    border-radius: 25px;
+
+}
+.section__logo{
+    width: 500px;
+    margin-top: 140px;
+}
+.butn{
+  width: 100px;
+  height: 27px;
+  border-radius: 30px;
+  background-color: #145E76;
+  color: white;
+}
+.btn1{
+    display: flex;
+    margin-top: 12px;
+}
+.btu{
+    padding: 8px 35px;
+    background-color: #FFA63A;
+    border-radius: 30px;
+}
+.btu1{
+    padding: 8px 35px;
+    border-radius: 30px;
+}
+.section_text{
+    font-size: 54px;
+    margin-top: 12px;
+}
+.sectio_rasm{
+    width: 500px;
+}
+.section{
+display: flex;
+justify-content: center;
+}
+.mein{
+    margin: 0 auto;
+    width: 700px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.mein_text{
+    font-size: 14px;
+    padding: 40px 24px;
+}
+.mein__logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.pla_n{
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.codda{
+    font-size: 30px;
+    width: 400px;
+    
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+.footer_logo{
+    width: 280px;
+    box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+    margin-left: 20px;
+   
+}
+.h3{
+    margin-top: 20px;
+ 
+}
+.footer_kichik{
+    margin-top: 20px;
+    text-align: center;
+}
+.orta__div{
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 50px;
+    color: #08546C;
+
+}
+.orta_p{
+    padding-top: 12px;
+}
+.orta_rasm{
+    margin-top: 100px;
+   
+}
+.orta_rasm_text{
+    font-size: 30px;
+    color: #08546C;
+    margin-top: 28px;
+}
+.orta_rasm_text2{
+    font-size: 14px;
+    color: #08546C;
+    width: 300px;
+}
+.orta_rasm_text3{
+    font-size: larger;
+    margin-top: 10px;
+    color: #08546C;
+}
+.clim_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.orta_rasm_text4{
+    font-size: larger;
+    margin-top: 10px;
+    color:  #FFA800;
+
+}
+.polo{
+    border-radius: 20px;
+}
+.div__instruk{
+    width: 500px;
+   
+}
+.div_logo{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-color: #145E76;
+    align-items: center;
+    border-radius: 2px;
+    margin-top: 100px;
+}
+.div_pr{
+    margin-top: 13px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.div__p{
+    font-size: 14px;
+    margin-top: 30px;
+    color: #FFFFFF;
+
+}
+.div__png{
+    font-size: 10px;
+    margin-top: 6px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 480px) and (min-width:320px) {
+    body{
+        background-color: #FFA63A;
+
+    }
+    .continer{
+    flex-direction: column; 
+    color: paleturquoise;
+    text-align: center;   
+    }
+    .section{
+        flex-direction: column;
+        color: paleturquoise; 
+        text-align: center; 
+
+    }
+    .mein{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .pla_n{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .codda{
+        color: paleturquoise;
+        text-align: center; 
+  
+    }
+    .footer{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .orta__div{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .clim{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .div_logo{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+
+
+    
+}
+@media screen and (max-width: 768px) and (min-width:481px) {
+    body{
+      background: #145E76;
+      max-width: 768px;
+
+    }
+    .continer{
+    flex-direction: column; 
+    color: paleturquoise;
+    text-align: center;   
+    }
+    .section{
+        flex-direction: column;
+        color: paleturquoise; 
+        text-align: center; 
+
+    }
+    .mein{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .pla_n{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .codda{
+        color: paleturquoise;
+        text-align: center; 
+  
+    }
+    .footer{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .orta__div{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .clim{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .div_logo{
+        flex-direction: column;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+
+
+    
+}
+@media screen and (max-width: 1024px) and (min-width:769px) {
+    body{
+      background: brown;
+    }
+    .continer{
+    display: flex;
+    justify-content: space-between;
+    color: paleturquoise;
+    text-align: center;   
+    }
+    .section{
+       display: flex;
+       justify-content: space-between;
+        color: paleturquoise; 
+        text-align: center; 
+
+    }
+    .mein{
+       display: flex;
+       justify-content: space-between;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .pla_n{
+        display: flex;
+        justify-content: space-between;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .codda{
+        color: paleturquoise;
+        text-align: center; 
+  
+    }
+    .footer{
+       display: flex;
+       justify-content: space-between;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .orta__div{
+       display: flex;
+       justify-content: space-between;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .clim{
+      display: flex;
+      justify-content: space-between;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+    .div_logo{
+        display: flex;
+        justify-content: space-between;
+        color: paleturquoise;  
+        text-align: center; 
+
+    }
+}
